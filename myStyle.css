@@ -41,12 +41,6 @@
     animation-iteration-count: infinite;
 }
 
-.img:active{
-    width: 100%;
-    border-radius: 10%;
-    content: url("assets/me2.JPG")
-}
-
 
 @keyframes littleShake {
     0% { transform: translate(3px,3px) rotate(0deg);}
