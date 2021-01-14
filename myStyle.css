@@ -36,6 +36,20 @@
     content: url("assets/me1.JPG")
 }
 
+.facebook{
+    position: relative;
+    width: 10%;
+    content: url("assets/facebook.png");
+    left: 75%;
+}
+
+.ig{
+    position: relative;
+    width: 10%;
+    content: url("assets/ig.png");
+    left: 78%;
+}
+
 .img:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
