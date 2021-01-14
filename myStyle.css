@@ -36,17 +36,17 @@
     content: url("assets/me1.JPG")
 }
 
-.facebook{
+.fa-facebook-official{
+    color: #3B5998; 
     position: relative;
-    width: 10%;
-    content: url("assets/facebook.png");
+    font-size: 200%;
     left: 75%;
 }
 
-.ig{
+.fa-instagram{
+    color: rgb(225, 48, 108); 
     position: relative;
-    width: 10%;
-    content: url("assets/ig.png");
+    font-size: 200%;
     left: 78%;
 }
 
