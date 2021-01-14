@@ -9,6 +9,9 @@
     text-align: center;
     font-family: monospace;
     font-size: 50px;
+
+    animation: littleShake 2.5s;
+    animation-iteration-count: infinite;
 }
 
 .mainContent{
@@ -30,11 +33,29 @@
 .img{
     width: 100%;
     border-radius: 10%;
+    content: url("assets/me1.JPG")
 }
 
 .img:hover{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
+}
+
+.img:active{
+    width: 100%;
+    border-radius: 10%;
+    content: url("assets/me2.JPG")
+}
+
+
+
+
+@keyframes littleShake {
+    0% { transform: translate(3px,3px) rotate(0deg);}
+    25% { transform: translate(3px,3px) rotate(-1deg);}
+    50% { transform: translate(3px,3px) rotate(0deg);}
+    75% { transform: translate(3px,3px) rotate(1deg);}
+    100% { transform: translate(3px,3px) rotate(0deg);}
 }
 
 @keyframes shake {
